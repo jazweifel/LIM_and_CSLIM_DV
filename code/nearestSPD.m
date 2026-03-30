@@ -14,6 +14,11 @@ function Ahat = nearestSPD(A)
 %
 % Arguments: (output)
 %  Ahat - The matrix chosen as the nearest SPD matrix to A.
+
+% This was downloaded from the Mathworks MATLAB Central Repository.
+% It can be found here: https://www.mathworks.com/matlabcentral/fileexchange/42885-nearestspd
+% Accessed 3/27/2026 by D. Vimont
+
 if nargin ~= 1
   error('Exactly one argument must be provided.')
 end
